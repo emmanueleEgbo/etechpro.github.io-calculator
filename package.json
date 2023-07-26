@@ -4,6 +4,7 @@
   "description": "",
   "main": "script.js",
   "scripts": {
+  "client": "cd client && npm start", 
   "build": "webpack", 
   "start": "node server.js"
 },
