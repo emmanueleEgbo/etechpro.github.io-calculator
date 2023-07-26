@@ -4,9 +4,12 @@
   "description": "",
   "main": "script.js",
   "scripts": {
-  "client": "cd client && npm start", 
-  "build": "webpack", 
-  "start": "node script.js"
+  "build": "webpack",
+  "start": "node script.js",
+  "render-start": "npm install && npm run build"
+},
+"engines": {
+  "node": "18.14.2"
 },
   "keywords": [],
   "author": "",
