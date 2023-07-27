@@ -1,3 +1,5 @@
+const math = require('mathjs');
+
 const maxInputValue = 10000000;
 
 
@@ -23,7 +25,7 @@ for (let i = 0; i < operator.length; i++){
   	if(this.id == "="){
 		if(this.id == "="){
 		let result = document.getElementById("screenDisplay").innerText;
-		printButtonsValue( eval(result) );
+		printButtonsValue( math.evaluate(result) );
 		}
   	 }
   });
