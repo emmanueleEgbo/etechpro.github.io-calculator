@@ -11,8 +11,8 @@ hr{
 
 
 .calcContainer{
-	width: 300px;
-	height: 500px;
+	width: 380px;
+	height: 580px;
 	background: #100C08;
 	border-color: black;
 	margin: 10px auto;
@@ -45,13 +45,11 @@ hr{
 .grid{
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
-	gap: 10px;
-	width: 80%;
-	height: 50%;
-	align-self: center;
-	position: relative;
-	top: 27px;
-	left: -95px;	
+	gap: 8px;
+	flex-direction: column;
+    
+    position: relative;	
+    left:-75px;
 }
 
 .num{
@@ -74,14 +72,17 @@ hr{
 	cursor: pointer;
 }
 
-.calcModel{
-	display: flex;
-	position: relative;
-	bottom: -40px;
-	left: 60px;
-	color: #be0032;
-	font-size: 24px;
+.calcModel {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center;
+  position: relative;
+  top:10px;
+  color: #be0032;
+  font-size: 24px;
 }
+
 
 @media screen and (min-width: 1024px) {
     .gfg-div {
