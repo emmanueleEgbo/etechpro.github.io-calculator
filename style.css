@@ -47,9 +47,9 @@ hr{
 	grid-template-columns: repeat(4, 1fr);
 	gap: 8px;
 	flex-direction: column;
-    
     position: relative;	
-    left:-75px;
+    top:20px;
+    left:-105px;
 }
 
 .num{
