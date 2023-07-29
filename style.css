@@ -47,8 +47,8 @@ hr{
 	grid-template-columns: repeat(4, 1fr);
 	grid-template-rows: repeat(4, 1fr);
 	gap: 10px;
-	width: 250px;
-	height: 290px;
+	width: 80%;
+	height: 50%;
 	align-self: center;
 	position: relative;
 	top: 27px;
@@ -83,3 +83,11 @@ hr{
 	color: #be0032;
 	font-size: 24px;
 }
+
+@media screen and (min-width: 1024px) {
+    .gfg-div {
+        width: 50vw;
+        height: 70vh;
+    }
+}
+
